@@ -1,0 +1,185 @@
+@media (min-width: 0px) {
+  h2 {
+    color: #a7fbee;
+    text-align: center;
+  }
+  body {
+    background-color: #10111e;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    background-color: #10111e;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #F8F9FA;
+  }
+  nav ul li a:hover {
+    color: #9286fc;
+  }
+  h1 {
+    color: #9286fc;
+  }
+  #hero {
+    display: flex;
+    flex-direction: column;
+    background-color: #191e30;
+    padding: 20px;
+  }
+  #hero h2 {
+    color: #a7fbee;
+  }
+  #hero p {
+    color: #F8F9FA;
+  }
+  #hero button {
+    width: 25%;
+    margin: 0 auto;
+  }
+  #hero button a {
+    color: #F8F9FA;
+    text-decoration: none;
+  }
+  div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  div article {
+    padding: 5px;
+  }
+  div article h3 {
+    color: #9286fc;
+    font-size: 1rem;
+    text-align: center;
+  }
+  button {
+    transition: background 1.5s;
+    background-color: rgb(52, 52, 126);
+    color: #F8F9FA;
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: #9286fc;
+    transform: scale(1.1);
+  }
+  #proyects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  #proyects div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #191e30;
+  }
+  #proyects div article {
+    border: 1px solid black;
+    box-shadow: 5px 10px 50px rgb(0, 0, 0);
+    padding: 15px;
+    color: #F8F9FA;
+  }
+  .toolkitCat {
+    display: flex;
+    text-align: center;
+    margin: 20%;
+  }
+  .toolkitCat h3 {
+    color: #9286fc;
+  }
+  .toolkitItem {
+    list-style: none;
+    color: #F8F9FA;
+  }
+  #aboutMe div {
+    padding: 20px;
+    background-color: #191e30;
+  }
+  #aboutMe div h3 {
+    color: #9286fc;
+    font-size: 2rem;
+  }
+  #aboutMe div p {
+    color: #F8F9FA;
+    padding: 10px;
+    text-align: end;
+  }
+  #contactMe form {
+    color: #F8F9FA;
+    background-color: #191e30;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+  }
+  #contactMe form input {
+    background-color: #2d385f;
+    margin-bottom: 10px;
+  }
+  #contactMe form textarea {
+    background-color: #2d385f;
+    margin-bottom: 20px;
+  }
+  footer {
+    margin-top: 20px;
+    color: #2d385f;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+}
+@media (min-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+  }
+  #hero div {
+    width: 100%;
+  }
+  #hero div article {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+  }
+  #hero div article h3 {
+    text-align: center;
+  }
+  #proyects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  #proyects div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

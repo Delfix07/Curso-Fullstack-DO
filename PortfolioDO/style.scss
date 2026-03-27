@@ -1,0 +1,214 @@
+$backC: #10111e;
+$cards: #191e30;
+$accent:#9286fc; 
+$accent2: #a7fbee; 
+$text: #F8F9FA;
+$btn: rgb(52, 52, 126); 
+@media (min-width: 0px) {
+h2{
+        color:$accent2;
+        text-align: center;
+    }
+
+body{
+    background-color: $backC; 
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    background-color: $backC;
+    
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+        cursor: pointer;
+       
+        li{
+            a{
+            text-decoration: none;
+            color: $text;
+            } 
+            a:hover{
+            color: $accent;
+            }
+            }
+        }
+    }
+h1{
+    color:$accent; 
+    }
+#hero{
+    display: flex;
+    flex-direction: column;
+    background-color: $cards;
+    padding:20px;
+    h2{
+        color:$accent2;
+    }
+    p{
+        color:$text;
+    }
+    button {
+        width: 25%;
+        margin: 0 auto;
+            a {
+                color: $text; 
+                text-decoration: none;
+            }
+    }
+
+    }
+    div{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        article{
+            padding: 5px;
+            h3{
+                color: $accent;
+                font-size: 1rem;
+                text-align: center;
+            }
+        }
+    }
+
+button{
+    transition: background 1.5s;
+    background-color: $btn;
+    color:$text;
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: $accent;
+    transform: scale(1.1);
+}
+
+#proyects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+ div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: $cards;
+    article {
+        border: 1px solid black;
+        box-shadow: 5px 10px 50px rgb(0, 0, 0);
+        padding: 15px;
+        color:$text;
+    }
+  }
+}
+
+.toolkitCat{
+    display:flex;
+    text-align: center;
+    margin: 20%;
+}
+.toolkitCat{
+    h3{
+        color:$accent;
+    }
+}
+.toolkitItem{
+    list-style: none;
+    color:$text;
+}
+
+#aboutMe{
+    
+    div{
+        padding: 20px;
+        background-color: $cards;
+        
+        h3{
+            color: $accent;
+            font-size: 2rem;
+        }
+        p{
+            color:$text;
+            padding: 10px;
+            text-align: end;
+        }
+    }
+}
+
+#contactMe{
+    form{
+        color:$text;
+        background-color: #191e30;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding:20px;
+        justify-content: space-between;
+        input{
+            background-color: #2d385f;
+            margin-bottom: 10px;
+        }
+        textarea{
+            background-color: #2d385f;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+footer{
+    margin-top: 20px;
+    color: #2d385f;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+}
+@media (min-width: 768px) { 
+    nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        }
+    }
+
+    #hero 
+    div{
+        width: 100%;
+        article{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 100%;
+            h3{
+                text-align: center;
+            }
+        }
+    }   
+
+    #proyects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+        div {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+    }
+}
