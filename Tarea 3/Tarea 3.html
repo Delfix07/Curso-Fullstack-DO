@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 3</title>
+    <link rel="stylesheet" href="tarea3.css">
+</head>
+<body>
+    <header>
+        <h1>¡Registrate para obtener tus entradas antes de que se agoten!</h1>
+    </header>
+    <main>
+        <h2>Ingrese por favor sus datos</h2><br>
+        <form>
+            <label for="nombre">Nombre</label> 
+            <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required> <br><br>
+            <label for="edad">Edad</label>
+            <input type="date" name="edad" id="edad" required><br><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="ingrese su email" required><br><br>
+            <label for="entradas">Cantidad de entradas</label>
+            <input type="number" name="number" id="number" min="1" max="10" step="1" required><br><br>
+            <label for="cliente">Tipo de cliente</label>
+            <select id="cliente">
+                <option selected></option>
+                <option>Nuevo cliente</option>
+                <option>Cliente frecuente</option>
+            </select><br><br>
+            <label for="checkbox">Aceptar terminos y condiciones</label>
+            <input type="checkbox" name="checkbox" id="checkbox" required><br><br>
+            <button type="submit">Enviar</button>
+
+        </form>
+    </main>
+    <footer>
+        <p>Desarrollado por Delfina Olié</p>
+    </footer>
+</body>
+</html>

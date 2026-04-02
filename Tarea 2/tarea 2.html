@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 2</title>
+</head>
+
+<body>
+    <form>
+        <label for="nombre">Nombre</label> <br>
+        <input type="text" minlength="3" name="nombre" id="nombre" placeholder="Ingrese su nombre"> <br><br>
+        <label for="email">Email</label> <br>
+        <input type="email" name="email" id="email" placeholder="Ingrese su email" required><br><br>
+        <label for="telefono">Telefono</label> <br>
+        <input type="tel" name="telefono" id="telefono" placeholder="Ingrese su telefono"> <br><br>
+        <label for="motivo">Moivo de consulta</label><br>
+        <select name="motivo" id="motivo">
+            <option selected></option>
+            <option>Primer consulta</option>
+            <option>Consulta de seguimiento</option>
+        </select> <br><br>
+        <label for="mensaje">Mensaje</label><br>
+        <textarea name="mensaje" id="mensaje" placeholder="Escriba su mensaje"></textarea><br><br>
+        <label for="number">Ingrese su edad</label><br>
+        <input type="number" name="edad" id="edad" min="1" max="110" step= 1 required> <br><br>
+        <label for="checkbox">¿Acepta los términos y Condiciones?</label><br>
+        <input type="checkbox" name="checkbox" id="checkbox" required> <br>
+        <p>¿es tu primera vez atendiendote con nosotros?</p>
+        <label for="radioSi">Si</label>
+        <input type="radio" id="si" name="radio">
+        <label for="radioNo">No</label>
+        <input type="radio" id="no" name="radio"> <br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+    <footer>
+        <p>Hecho por Delfina Olié</p>
+    </footer>
+</body>
+
+</html>
