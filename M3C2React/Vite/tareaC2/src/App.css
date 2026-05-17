@@ -1,0 +1,33 @@
+:root {
+  background-color: rgb(32, 34, 50);
+}
+.titulo{
+    color:rgb(53, 57, 111);
+}
+
+.contenedorProductos article{
+    border: 3px solid rgb(58, 57, 67);
+    background-color: rgb(218, 226, 243);
+    border-radius: 5px;
+    margin:auto;
+    width: 50%;
+    padding: 15px;
+}
+.contenedorProductos{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: space-around;
+    padding: 10px;
+}
+.btn{
+    background-color: rgb(134, 248, 174);
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
