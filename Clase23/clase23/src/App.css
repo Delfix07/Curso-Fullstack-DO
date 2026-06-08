@@ -1,0 +1,24 @@
+
+body{
+    background-color: rgb(209, 221, 221);
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:30px;
+    margin: 15px;
+    gap:10px;
+}
+.error{
+    color: rgb(205, 2, 2);
+}
+
+button:hover{
+    background-color: rgb(142, 175, 235);
+}
+
+.datosEnviados h3{
+    color:rgb(74, 117, 139)
+}
